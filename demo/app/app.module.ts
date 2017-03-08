@@ -7,8 +7,8 @@ import { CatPageComponent } from './cat.page.component';
 import { HomePageComponent } from './home.page.component';
 
 const appRoutes: Routes = [
-  {path: '', component:  HomePageComponent },
-  {path: 'cat', component: CatPageComponent, }
+  {path: '', component: HomePageComponent },
+  {path: 'cat', component: CatPageComponent }
 ]
 
 @NgModule({
