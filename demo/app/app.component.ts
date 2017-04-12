@@ -3,10 +3,9 @@ import {Component} from '@angular/core';
 @Component({
     selector: 'app',
     template: `
-      <header>
-        <a routerLink="">Home</a>
-        <a routerLink="cat">Cat</a>
-      </header>
+      <a routerLink="/" routerLinkActive="active">Home</a>
+      <a routerLink="/cat" routerLinkActive="active">Cats</a>
+      <h1>My App</h1>
       <router-outlet></router-outlet>
     `
 })

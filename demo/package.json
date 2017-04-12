@@ -8,7 +8,7 @@
     "build": "webpack -wd",
     "specs": "live-server --open=specs.build/specs.html",
     "open": "opener http://localhost:5000/webpack-dev-server/index.html",
-    "dev": "node ./node_modules/concurrently/src/main.js --kill-others \"npm run build\" \"npm run specs\"  \"npm run dev-server\"; npm run open  "
+    "dev": "node ./node_modules/concurrently/src/main.js --kill-others \"npm run build\"   \"npm run dev-server\"  "
   },
   "author": "Nicholas Johnson",
   "license": "ISC",

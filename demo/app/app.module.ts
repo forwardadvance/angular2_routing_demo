@@ -11,10 +11,12 @@ const appRoutes: Routes = [
   {path: 'cat', component: CatPageComponent }
 ]
 
+var routerModule = RouterModule.forRoot(appRoutes)
+
 @NgModule({
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    routerModule
   ],
   declarations: [ AppComponent, CatPageComponent, HomePageComponent ],
   bootstrap: [ AppComponent ],
