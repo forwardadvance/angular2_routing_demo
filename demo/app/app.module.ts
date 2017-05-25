@@ -8,7 +8,7 @@ import { HomePageComponent } from './home.page.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomePageComponent },
-  {path: 'cat', component: CatPageComponent }
+  {path: 'cat/:id', component: CatPageComponent }
 ]
 
 var routerModule = RouterModule.forRoot(appRoutes)
